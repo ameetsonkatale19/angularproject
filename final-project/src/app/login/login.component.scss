@@ -1,0 +1,67 @@
+/* login.component.css */
+
+.login-container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffe645, #e2aa02 100%);
+    position: relative;
+}
+
+.logo {
+    font-size: 50px;
+    font-family: 'crepster', cursive;
+    font-weight: bold;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.desc {
+    font-size: 20px;
+    font-family: 'Aladin', cursive;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    text-align: right;
+    width: 800px;
+}
+
+.film {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 400px;
+}
+
+.login-form {
+    width: 300px;
+    height: 280px;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    position: absolute;
+    right: 50px;
+    bottom: 25px;
+    box-shadow: 5px 5px 20px #383838;
+}
+
+.login-form .form-group {
+    margin-top: 10px;
+}
+
+.btn-container {
+    position: relative;
+}
+
+.btn-container .btn {
+    margin-top: 10px;
+}
+
+.btn-container .error {
+    position: absolute;
+    top: 32px;
+    right: 0px;
+    color: red;
+}
